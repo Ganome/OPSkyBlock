@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-11 18:04-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hud.lua
+msgid "XP"
+msgstr ""
+
+#: hud.lua
+msgid "+@1XP"
+msgstr ""
+
+#: hud.lua sfinv.lua unified_inventory.lua
+msgid "Liga @1"
+msgstr ""
+
+#: hud.lua sfinv.lua unified_inventory.lua
+msgid "Nivel @1"
+msgstr ""
+
+#: hud.lua
+msgid "-@1XP"
+msgstr ""
+
+#: ligas.lua
+msgid "Novato I"
+msgstr ""
+
+#: ligas.lua
+msgid "Novato II"
+msgstr ""
+
+#: ligas.lua
+msgid "Novato III"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira I"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira II"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira III"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira V"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira VI"
+msgstr ""
+
+#: ligas.lua
+msgid "Madeira VII"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra I"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra II"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra III"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra V"
+msgstr ""
+
+#: ligas.lua
+msgid "Pedra VI"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro I"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro II"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro III"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro V"
+msgstr ""
+
+#: ligas.lua
+msgid "Ferro VI"
+msgstr ""
+
+#: ligas.lua
+msgid "Bronze II"
+msgstr ""
+
+#: ligas.lua
+msgid "Bronze III"
+msgstr ""
+
+#: ligas.lua
+msgid "Bronze IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Bronze V"
+msgstr ""
+
+#: ligas.lua
+msgid "Bronze VI"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese I"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese II"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese III"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese V"
+msgstr ""
+
+#: ligas.lua
+msgid "Mese VI"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante I"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante II"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante III"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante IV"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante V"
+msgstr ""
+
+#: ligas.lua
+msgid "Diamante VI"
+msgstr ""
+
+#: ranking.lua shop.lua
+msgid "Voltar"
+msgstr ""
+
+#: ranking.lua
+msgid "Pontos"
+msgstr ""
+
+#: ranking.lua
+msgid "Jogador"
+msgstr ""
+
+#: sfinv.lua unified_inventory.lua
+msgid "Nivel"
+msgstr ""
+
+#: sfinv.lua unified_inventory.lua
+msgid "Pontos: @1"
+msgstr ""
+
+#: sfinv.lua shop.lua unified_inventory.lua
+msgid "Cash XP: @1"
+msgstr ""
+
+#: sfinv.lua unified_inventory.lua
+msgid "Loja de Premios"
+msgstr ""
+
+#: sfinv.lua unified_inventory.lua
+msgid "Ranking Global"
+msgstr ""
+
+#: sfinv.lua unified_inventory.lua
+msgid "Progresso"
+msgstr ""
+
+#: shop.lua
+msgid "Loja de Itens por XP"
+msgstr ""
+
+#: shop.lua
+msgid "Escolha um Item"
+msgstr ""
+
+#: shop.lua
+msgid "Custo: @1 CashXP"
+msgstr ""
+
+#: shop.lua
+msgid "Nivel mínimo: @1"
+msgstr ""
+
+#: shop.lua
+msgid "Unidades: @1"
+msgstr ""
+
+#: shop.lua
+msgid "Comprar"
+msgstr ""
+
+#: shop.lua
+msgid "Cash XP insuficiente"
+msgstr ""
+
+#: shop.lua
+msgid "Precisa estar no nivel @1"
+msgstr ""
+
+#: shop.lua
+msgid "Inventario lotado"
+msgstr ""
+
+#: shop.lua
+msgid "Adiquirido"
+msgstr ""

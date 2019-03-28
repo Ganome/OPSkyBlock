@@ -1,0 +1,22 @@
+#    ABOUT SETTINGS
+
+# Mapgen: write here (after "int") 6 (mgv6) or 7 (mgv7 or valleys or fractal or flat)
+nssm.mymapgenis (Mapgen) int 7
+
+# Mobs-Multiplier: multiplier defining the spawn abundance for the mobs:
+# 0 = spawn disabled
+# a number between 0 and 1000 = less then default
+# 1000 = default
+# more than 1000 = suicide is not the fastest way of dying
+nssm.multimobs (Multimobs) int 1000
+
+# Difficult-level:
+# Multiplier to raise life and damage of the mobs
+nssm.mob_difficulty (Mob difficulty) int 1
+
+nssm.server_rainbow_staff (Use the server-mode rainbow staff) bool false
+
+nssm.energy_boosts (Eat energy for stats boost) bool true
+nssm.energy_lights (Place energy for light) bool true
+
+nssm.spearmodifier (Spear speed modifier, 1=normal, 0.5 is half speed) string 1.0

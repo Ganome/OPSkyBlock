@@ -1,0 +1,1 @@
+quest_lib adds an empty Quest Book and an API to create quests.

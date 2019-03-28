@@ -1,0 +1,3 @@
+This MOD for Minetest adds a simple global marketplace to the game. This markeplace is designed to work only with chat commands. Type mp help in the chat to see all possible commands.
+
+Currently only items from default MTGame MOD are in the store list, since all the other items can be crafted from default blocks, this is sufficient for balanced game.

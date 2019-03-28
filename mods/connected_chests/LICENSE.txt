@@ -1,0 +1,2 @@
+connected_chest_open from default
+rest WTFPL
