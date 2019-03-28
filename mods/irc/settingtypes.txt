@@ -7,7 +7,7 @@ irc.auto_connect (Auto-connect on load) bool true
 
 # Nickname for the bot. May only contain characters A-Z, 0-9
 # '{', '}', '[', ']', '|', '^', '-', or '_'.
-irc.nick (Bot nickname) string GnomeTopiaBOT
+irc.nick (Bot nickname) string OPSkyBlockBOT
 
 # Server to connect to.
 irc.server (IRC server) string irc.freenode.net
@@ -25,7 +25,7 @@ irc.channel (Channel to join) string ##gnometopia
 
 # Password for authenticating to NickServ.
 # Leave empty to not authenticate with NickServ.
-irc.NSPass (NickServ password) string notmypassword
+irc.NSPass (NickServ password) string [YOURNICKSERVPASSWORDHERE]
 
 # IRC server password.
 # Leave empty for no password.
@@ -33,7 +33,7 @@ irc.password (Server password) string
 
 # Password for joining the channel.
 # Leave empty if your channel is not protected.
-irc.key (Channel key) string
+irc.key (Channel key) string 
 
 # Enable TLS connection.
 # Requires LuaSEC <https://github.com/brunoos/luasec>.
