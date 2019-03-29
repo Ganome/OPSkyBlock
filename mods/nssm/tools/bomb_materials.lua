@@ -9,7 +9,7 @@ function nssm_register_throwitem(name, descr, def)
             local dir = placer:get_look_dir();
             local playerpos = placer:getpos();
             posthrow = playerpos
-            local obj = minetest.env:add_entity({x=playerpos.x+0+dir.x,y=playerpos.y+2+dir.y,z=playerpos.z+0+dir.z}, "nssm:"..name.."_bomb_flying")
+            local obj = core.add_entity({x=playerpos.x+0+dir.x,y=playerpos.y+2+dir.y,z=playerpos.z+0+dir.z}, "nssm:"..name.."_bomb_flying")
             local vec = {x=dir.x*velocity,y=dir.y*velocity,z=dir.z*velocity}
             local acc = {x=0, y=-9.8, z=0}
             obj:setvelocity(vec)
@@ -24,7 +24,7 @@ function nssm_register_throwitem(name, descr, def)
         hp_max = 20,
         collisionbox = {-0.1,-0.1,-0.1, 0.1,0.1,0.1},
         on_step = function(self, dtime)
-            local pos = self.object:getpos()
+            local pos = self.object:get_pos()
             local node = minetest.get_node(pos)
             local n = node.name
             if n ~= "air" then
@@ -556,7 +556,7 @@ function nssm_register_throwegg(name, descr, def)
             local velocity = 15
             local dir = placer:get_look_dir();
             local playerpos = placer:getpos();
-            local obj = minetest.env:add_entity({x=playerpos.x+0+dir.x,y=playerpos.y+2+dir.y,z=playerpos.z+0+dir.z}, "nssm:"..name.."_bomb_flying")
+            local obj = core.add_entity({x=playerpos.x+0+dir.x,y=playerpos.y+2+dir.y,z=playerpos.z+0+dir.z}, "nssm:"..name.."_bomb_flying")
             local vec = {x=dir.x*velocity,y=dir.y*velocity,z=dir.z*velocity}
             local acc = {x=0, y=-9.8, z=0}
             obj:setvelocity(vec)
@@ -569,7 +569,7 @@ function nssm_register_throwegg(name, descr, def)
     minetest.register_entity("nssm:"..name.."_bomb_flying",{
         textures = {"evocation_bomb.png^"..name.."_egg.png"},
         on_step = function(self, dtime)
-            local pos = self.object:getpos()
+            local pos = self.object:get_pos()
             local node = minetest.get_node(pos)
             local n = node.name
             if n ~= "air" then

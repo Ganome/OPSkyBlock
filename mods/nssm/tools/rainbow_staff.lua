@@ -14,7 +14,7 @@ local tail_replacement = "nssm:light_energy"
 
 local function drop_rainbow_staff(itemstack, dropper, pos)
     local extents = 16
-    local airnodes = minetest.env:find_nodes_in_area(
+    local airnodes = core.find_nodes_in_area(
         {x=pos.x-extents , y=pos.y-extents, z=pos.z-extents},
         {x=pos.x+extents , y=pos.y+extents, z=pos.z+extents},
         {"air"}
@@ -44,7 +44,7 @@ if not nssm.server_rainbow_staff then
         on_step = function (self, pos, node, dtime)
             self.timer = self.timer or os.time()
 
-            local pos = self.object:getpos()
+            local pos = self.object:get_pos()
             if nssm.unswappable_node(pos) then
                 return
             end

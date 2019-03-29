@@ -50,7 +50,7 @@ local function spears_shot(itemstack, player)
     end
     local drag = base_drag * statmodifier
 
-    local playerpos = player:getpos()
+    local playerpos = player:get_pos()
     local obj = minetest.add_entity({x=playerpos.x,y=playerpos.y+1.5,z=playerpos.z}, spear)
     local dir = player:get_look_dir()
 
@@ -99,7 +99,7 @@ local function spears_set_entity(kind, eq, toughness, breadth)
     SPEAR_ENTITY.on_step = function(self, dtime)
         self.timer = self.timer+dtime
 
-        local pos = self.object:getpos()
+        local pos = self.object:get_pos()
         local node = minetest.get_node(pos)
 
         if not self.wear then

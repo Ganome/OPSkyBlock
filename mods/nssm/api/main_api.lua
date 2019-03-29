@@ -202,11 +202,11 @@ local function safely_put_block(self, pos_under_mob, original_node, putting_bloc
             minetest.registered_nodes[original_node].drawtype == "liquid"
             or minetest.registered_nodes[original_node].drawtype == "flowingliquid"
           ) then
-            minetest.env:set_node(pos_under_mob, {name = putting_block})
+            core.set_node(pos_under_mob, {name = putting_block})
 
         -- buildable to (snow, torch)
         elseif minetest.registered_nodes[original_node].buildable_to then
-            minetest.env:set_node(pos_under_mob, {name = "air"})
+            core.set_node(pos_under_mob, {name = "air"})
             minetest.add_item(pos_under_mob, {name = original_node})
 
         end
@@ -248,8 +248,8 @@ function putting_ability(        --sets 'putting_block' under the mob, as well a
         z = pos_under_mob.z + dz
     }
 
-    local node_under_mob = minetest.env:get_node(pos_under_mob).name
-    local node_under_frontof_mob = minetest.env:get_node(pos_under_frontof_mob).name
+    local node_under_mob = core.get_node(pos_under_mob).name
+    local node_under_frontof_mob = core.get_node(pos_under_frontof_mob).name
 
     local oldmetainf = {
         minetest.get_meta(pos_under_mob):to_table(),
@@ -272,7 +272,7 @@ function webber_ability(        --puts randomly around the block defined as w_bl
         local dz=math.random(1,radius)
         --local p = {x=pos.x+dx, y=pos.y-1, z=pos.z+dz}
         local t = {x=pos.x+dx, y=pos.y, z=pos.z+dz}
-        --local n = minetest.env:get_node(p).name
+        --local n = core.get_node(p).name
         local k = core.get_node(t).name
         if k == "air" and not nssm.unswappable_node(t) then
             core.set_node(t, {name=w_block})
@@ -323,10 +323,10 @@ function midas_ability(        --ability to transform every blocks it touches in
         for dy = -1, height do
             for dz = k1, k do
                 local p = {x=pos.x+dx, y=pos.y+dy, z=pos.z+dz}
-                local n = minetest.env:get_node(p).name
+                local n = core.get_node(p).name
 
                 if not nssm.unswappable_node(p, {"air"}) then
-                    minetest.env:set_node(p, {name=m_block})
+                    core.set_node(p, {name=m_block})
                 end
             end
         end

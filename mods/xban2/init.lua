@@ -91,7 +91,7 @@ function xban.ban_player(player, source, expires, reason) --> bool, err
 		if ip then
 			e.names[ip] = true
 		end
-		e.last_pos = pl:getpos()
+		e.last_pos = pl:get_pos()
 	end
 	e.reason = reason
 	e.time = rec.time
