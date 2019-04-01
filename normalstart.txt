@@ -1,40 +1,184 @@
-
-
--------------
+------------
   Separator
 -------------
 
-2019-04-01 16:40:06: [Main]: Automatically selecting world at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
-2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "bucket"
-2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/bucket
-2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/fluid_lib/bucket
-2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "farming"
-2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/farming
-2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/farming
-2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "tnt"
-2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/tnt
-2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/tnt
-2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: health
-2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: breath
-2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: sprint
-2019-04-01 16:40:06: WARNING[Main]: Node 'light_source' value exceeds maximum, limiting to maximum: illumination:light_full
-2019-04-01 16:40:07: WARNING[Main]: Undeclared global variable "tr" accessed at /home/ganome/minetest/bin/../mods/farming/hoes.lua:169
-2019-04-01 16:40:08: WARNING[Main]: Undeclared global variable "item_drop" accessed at ...ome/ganome/minetest/bin/../mods/quest_lib/events.lua:102
-2019-04-01 16:40:08: ACTION[Main]: hb.register_hudbar: xpro:xp
-2019-04-01 16:40:08: WARNING[Main]: Node moreblocks:super_glow_glass has a palette, but not a suitable paramtype2.
-2019-04-01 16:40:08: WARNING[Main]: Node moreblocks:trap_super_glow_glass has a palette, but not a suitable paramtype2.
-2019-04-01 16:40:08: WARNING[Main]: Node framedglass:steel_framed_obsidian_glass has a palette, but not a suitable paramtype2.
-2019-04-01 16:40:08: WARNING[Main]: Not registering alias, item with same name is already defined: technic:panel_concrete_bottom -> technic:panel_concrete
-2019-04-01 16:40:08: WARNING[Main]: Not registering alias, item with same name is already defined: technic:micro_concrete_bottom -> technic:micro_concrete
-2019-04-01 16:40:08: ACTION[Main]: [MOD] Mobs Redo loaded
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
-2019-04-01 16:40:11: ACTION[Main]: World at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
-2019-04-01 16:40:11: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:30000.
-2019-04-01 16:40:11: ACTION[Server]: Announcing to servers.minetest.net
-2019-04-01 16:40:47: WARNING[Server]: Assignment to undeclared global "srcstack" inside a function at ...ds/technic/technic/machines/register/battery_box.lua:455.
+2019-04-01 16:44:56: [Main]: Automatically selecting world at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
+2019-04-01 16:44:56: WARNING[Main]: Mod name conflict detected: "bucket"
+2019-04-01 16:44:56: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/bucket
+2019-04-01 16:44:56: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/fluid_lib/bucket
+2019-04-01 16:44:56: WARNING[Main]: Mod name conflict detected: "farming"
+2019-04-01 16:44:56: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/farming
+2019-04-01 16:44:56: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/farming
+2019-04-01 16:44:56: WARNING[Main]: Mod name conflict detected: "technic_chests"
+2019-04-01 16:44:56: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../mods/technic/technic_chests
+2019-04-01 16:44:56: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/technic_chests
+2019-04-01 16:44:56: WARNING[Main]: Mod name conflict detected: "tnt"
+2019-04-01 16:44:56: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/tnt
+2019-04-01 16:44:56: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/tnt
+2019-04-01 16:44:56: ACTION[Main]: hb.register_hudbar: health
+2019-04-01 16:44:56: ACTION[Main]: hb.register_hudbar: breath
+2019-04-01 16:44:56: ACTION[Main]: hb.register_hudbar: sprint
+2019-04-01 16:44:56: WARNING[Main]: Node 'light_source' value exceeds maximum, limiting to maximum: illumination:light_full
+2019-04-01 16:44:56: WARNING[Main]: Undeclared global variable "tr" accessed at /home/ganome/minetest/bin/../mods/farming/hoes.lua:169
+2019-04-01 16:44:57: WARNING[Main]: 3d_armor_ip: Mod loaded but unused.
+2019-04-01 16:44:57: WARNING[Main]: Undeclared global variable "item_drop" accessed at ...ome/ganome/minetest/bin/../mods/quest_lib/events.lua:102
+2019-04-01 16:44:57: ACTION[Main]: hb.register_hudbar: xpro:xp
+2019-04-01 16:44:58: WARNING[Main]: Node moreblocks:super_glow_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:44:58: WARNING[Main]: Node moreblocks:trap_super_glow_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:44:58: WARNING[Main]: Node framedglass:steel_framed_obsidian_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:44:58: WARNING[Main]: Not registering alias, item with same name is already defined: technic:panel_concrete_bottom -> technic:panel_concrete
+2019-04-01 16:44:58: WARNING[Main]: Not registering alias, item with same name is already defined: technic:micro_concrete_bottom -> technic:micro_concrete
+2019-04-01 16:44:58: ACTION[Main]: [MOD] Mobs Redo loaded
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:58: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:44:59: ACTION[Main]: World at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
+2019-04-01 16:44:59: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:30000.
+2019-04-01 16:44:59: ACTION[Server]: Announcing to servers.minetest.net
+2019-04-01 16:45:43: ACTION[Server]: IRC: Connected!
+2019-04-01 16:45:43: WARNING[Server]: Assignment to undeclared global "srcstack" inside a function at ...ds/technic/technic/machines/register/battery_box.lua:455.
+2019-04-01 16:45:50: ACTION[Server]: IRC CHAT: -!- GnomeTopiaBOT joined #gnometopia
+2019-04-01 16:45:53: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:53: WARNING[Main]: Irrlicht: PNG warning: iCCP: known incorrect sRGB profile
+2019-04-01 16:45:53: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:54: WARNING[Main]: Irrlicht: PNG warning: iCCP: known incorrect sRGB profile
+2019-04-01 16:45:54: WARNING[Main]: Irrlicht: PNG warning: iCCP: known incorrect sRGB profile
+2019-04-01 16:45:54: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:54: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:54: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:55: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:55: WARNING[Main]: Irrlicht: PNG warning: Interlace handling should be turned on when using png_read_image
+2019-04-01 16:45:55: WARNING[Main]: Client side scripting is disabled by client.
+2019-04-01 16:45:55: ERROR[Main]: Client: Cannot create image from data of file "zombie-base.psd"
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:56: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:57: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creaating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_pine_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_sapling.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:58: ERROR[Main]: generateImage(): Could not load image "moretrees_acacia_leaves.png" while building texture; Creating a dummy image
+2019-04-01 16:45:59: WARNING[Main]: TextureSource::getPalette(): the specified palette image "unifieddyes_palette_extended.png" is larger than 256 pixels, using the first 256.
+2019-04-01 16:46:00: ACTION[Server]: Ganome [73.78.77.196] joins game. 
+2019-04-01 16:46:00: ACTION[Server]: Ganome joins game. List of players: Ganome
+2019-04-01 16:46:00: WARNING[Server]: 3d_armor: Detached armor inventory is nil [set_player_armor]
+2019-04-01 16:46:03: WARNING[Main]: Irrlicht: Could not open file of texture: character.png
+2019-04-01 16:46:03: WARNING[Main]: Irrlicht: Could not open file of texture: zombie04.png
+2019-04-01 16:46:16: WARNING[Main]: Irrlicht: Could not open file of texture: zombie02.png
+2019-04-01 16:46:33: ACTION[Server]: Ganome activates moreores:sword_mithril
