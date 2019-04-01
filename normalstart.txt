@@ -1,0 +1,40 @@
+
+
+-------------
+  Separator
+-------------
+
+2019-04-01 16:40:06: [Main]: Automatically selecting world at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
+2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "bucket"
+2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/bucket
+2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/fluid_lib/bucket
+2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "farming"
+2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/farming
+2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/farming
+2019-04-01 16:40:06: WARNING[Main]: Mod name conflict detected: "tnt"
+2019-04-01 16:40:06: WARNING[Main]: Will not load: /home/ganome/minetest/bin/../games/minetest_game/mods/tnt
+2019-04-01 16:40:06: WARNING[Main]: Overridden by: /home/ganome/minetest/bin/../mods/tnt
+2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: health
+2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: breath
+2019-04-01 16:40:06: ACTION[Main]: hb.register_hudbar: sprint
+2019-04-01 16:40:06: WARNING[Main]: Node 'light_source' value exceeds maximum, limiting to maximum: illumination:light_full
+2019-04-01 16:40:07: WARNING[Main]: Undeclared global variable "tr" accessed at /home/ganome/minetest/bin/../mods/farming/hoes.lua:169
+2019-04-01 16:40:08: WARNING[Main]: Undeclared global variable "item_drop" accessed at ...ome/ganome/minetest/bin/../mods/quest_lib/events.lua:102
+2019-04-01 16:40:08: ACTION[Main]: hb.register_hudbar: xpro:xp
+2019-04-01 16:40:08: WARNING[Main]: Node moreblocks:super_glow_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:40:08: WARNING[Main]: Node moreblocks:trap_super_glow_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:40:08: WARNING[Main]: Node framedglass:steel_framed_obsidian_glass has a palette, but not a suitable paramtype2.
+2019-04-01 16:40:08: WARNING[Main]: Not registering alias, item with same name is already defined: technic:panel_concrete_bottom -> technic:panel_concrete
+2019-04-01 16:40:08: WARNING[Main]: Not registering alias, item with same name is already defined: technic:micro_concrete_bottom -> technic:micro_concrete
+2019-04-01 16:40:08: ACTION[Main]: [MOD] Mobs Redo loaded
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:09: WARNING[Main]: No craft recipe matches input
+2019-04-01 16:40:11: ACTION[Main]: World at [/home/ganome/minetest/bin/../worlds/hopegoodseed]
+2019-04-01 16:40:11: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:30000.
+2019-04-01 16:40:11: ACTION[Server]: Announcing to servers.minetest.net
+2019-04-01 16:40:47: WARNING[Server]: Assignment to undeclared global "srcstack" inside a function at ...ds/technic/technic/machines/register/battery_box.lua:455.
