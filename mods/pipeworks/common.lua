@@ -205,7 +205,6 @@ function pipeworks.create_fake_player(def, is_dynamic)
 		end,
 		get_look_dir = delay(def.look_dir or {x=0, y=0, z=1}),
 		get_look_pitch = delay(def.look_pitch or 0),
-		get_look_yaw = delay(def.look_yaw or 0),
 		get_look_horizontal = delay(def.look_yaw or 0),
 		get_look_vertical = delay(-(def.look_pitch or 0)),
 		set_animation = delay(),

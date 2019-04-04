@@ -13,14 +13,14 @@
 xpro.dig_node_xp_list = {}
 
 -- Chamada global
-minetest.register_on_dignode(function(pos, oldnode, player)
+minetest.register_on_dignode(function(pos, oldnode, digger)
 	
 	-- Verifica se node gera XP
 	if xpro.dig_node_xp_list[oldnode.name] then
 		if xpro.dig_node_xp_list[oldnode.name] > 0 then
-			xpro.add_xp(player:get_player_name(), xpro.dig_node_xp_list[oldnode.name])
+			xpro.add_xp(digger:get_player_name(), xpro.dig_node_xp_list[oldnode.name])
 		else
-			xpro.rem_xp(player:get_player_name(), math.abs(xpro.dig_node_xp_list[oldnode.name]))
+			xpro.rem_xp(digger:get_player_name(), math.abs(xpro.dig_node_xp_list[oldnode.name]))
 		end
 	end
 end)
